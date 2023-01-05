@@ -1,0 +1,49 @@
+name: watch_dog
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #for responsiveness
+  flutter_screenutil: ^5.6.0
+
+  #for state management
+  flutter_bloc: ^8.1.1
+
+  #for api requests
+  http: ^0.13.4
+
+  #for time format
+  intl: ^0.17.0
+
+  #for testing content on different devices
+  device_preview: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+#
+#  fonts:
+#    - family: AppIcons
+#      fonts:
+#        - asset: assets/icons/AppIcons.ttf
+#
+#    - family: Mulish
+#      fonts:
+#        - asset: assets/fonts/Mulish-Black.ttf
